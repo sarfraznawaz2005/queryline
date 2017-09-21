@@ -1,5 +1,6 @@
 # Laravel QueryLine
 
+[![Code Climate](https://codeclimate.com/github/sarfraznawaz2005/queryline/badges/gpa.svg)](https://codeclimate.com/github/sarfraznawaz2005/queryline)
 [![laravel 5.1](https://img.shields.io/badge/Laravel-5.1-brightgreen.svg?style=flat-square)](http://laravel.com)
 [![laravel 5.2](https://img.shields.io/badge/Laravel-5.2-brightgreen.svg?style=flat-square)](http://laravel.com)
 [![laravel 5.3](https://img.shields.io/badge/Laravel-5.3-brightgreen.svg?style=flat-square)](http://laravel.com)
