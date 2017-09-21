@@ -42,7 +42,7 @@ class ServiceProvider extends IlluminateServiceProvider
 
             $queryParts = explode(' ', $sql);
 
-            if (strtolower($queryParts[0]) === 'select') {
+            if (isset($queryParts[0]) && strtolower($queryParts[0]) === 'select') {
                 $count = ++self::$counter;
 
                 self::$dataString .= "[$count, $time, \"$sql\"],\n";
