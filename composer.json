@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Sarfraznawaz2005\\Eventable\\": "src/"
+      "Sarfraznawaz2005\\QueryLine\\": "src/"
     }
   },
   "minimum-stability": "stable"
