@@ -4,7 +4,7 @@
 [![laravel 5.2](https://img.shields.io/badge/Laravel-5.2-brightgreen.svg?style=flat-square)](http://laravel.com)
 [![laravel 5.3](https://img.shields.io/badge/Laravel-5.3-brightgreen.svg?style=flat-square)](http://laravel.com)
 [![laravel 5.4](https://img.shields.io/badge/Laravel-5.4-brightgreen.svg?style=flat-square)](http://laravel.com)
-[![downloads](https://poser.pugx.org/sarfraznawaz2005/queryline/downloads)](https://packagist.org/packages/sarfraznawaz2005/eventable)
+[![downloads](https://poser.pugx.org/sarfraznawaz2005/queryline/downloads)](https://packagist.org/packages/sarfraznawaz2005/queryline)
 
 ## Introduction ##
 
