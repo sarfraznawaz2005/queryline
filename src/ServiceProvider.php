@@ -40,11 +40,15 @@ class ServiceProvider extends IlluminateServiceProvider
 
             $sql = $this->applyBindings($sql, $bindings);
 
-            $count = ++self::$counter;
+            $queryParts = explode(' ', $sql);
 
-            self::$dataString .= "[$count, $time, \"$sql\"],\n";
+            if (strtolower($queryParts[0]) === 'select') {
+                $count = ++self::$counter;
 
-            $this->output();
+                self::$dataString .= "[$count, $time, \"$sql\"],\n";
+
+                $this->output();
+            }
         });
     }
 
