@@ -81,7 +81,7 @@ SCRIPT;
     {
         $html = <<< HTML
         
-    <div id="__queryline_chart__" style="margin: 0 auto;"></div>
+    <div id="__queryline_chart__" style="margin: 0 auto; z-index: 99999999; position: relative;"></div>
     
     <script type="text/javascript" src="//www.gstatic.com/charts/loader.js"></script>
 
