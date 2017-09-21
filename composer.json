@@ -1,0 +1,29 @@
+{
+  "name": "sarfraznawaz2005/queryline",
+  "keywords": [
+    "laravel",
+    "eloquent",
+    "graph",
+    "query",
+    "sql"
+  ],
+  "description": "QueryLine is a laravel package to show time graph against run quries on a page.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sarfraz Ahmed",
+      "email": "sarfraznawaz2005@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "illuminate/support": "~5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sarfraznawaz2005\\Eventable\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
