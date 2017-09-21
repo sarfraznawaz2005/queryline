@@ -8,7 +8,7 @@
 
 ## Introduction ##
 
-QueryLine is a laravel package to show time graph against run quries on a page thereby allowing to see which are slow/fastest quries running on the page.
+QueryLine is a laravel package to show time graph against run queries on a page thereby allowing to see which are slow/fast queries running on the page.
 
 ## Screenshot ##
 
