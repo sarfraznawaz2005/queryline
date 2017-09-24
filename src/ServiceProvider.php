@@ -2,6 +2,7 @@
 
 namespace Sarfraznawaz2005\QueryLine;
 
+use Event;
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
@@ -46,9 +47,13 @@ class ServiceProvider extends IlluminateServiceProvider
                 $count = ++self::$counter;
 
                 self::$dataString .= "[$count, $time, \"$sql\"],\n";
-
-                $this->output();
             }
+        });
+
+        // Fired when laravel is done sending response. We use this event so that our
+        // response is not repeated
+        Event::listen('kernel.handled', function () {
+            $this->output();
         });
     }
 
