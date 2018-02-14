@@ -25,5 +25,12 @@
       "Sarfraznawaz2005\\QueryLine\\": "src/"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sarfraznawaz2005\\QueryLine\\ServiceProvider"
+      ]
+    }
+  }  
 }
